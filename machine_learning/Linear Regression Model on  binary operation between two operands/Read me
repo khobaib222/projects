@@ -1,0 +1,11 @@
+1. Linear Regression project.
+2. The Model is trained on 100 training cases.
+3. Each training case consist of x1,x2,x1*x2,x1*x1,x2*x2,x1+x2, where x1 and x2 are two integer numbers randomly generated.
+4. Matrix X (feature matrix) consists of columns of x1,x2,x1*x2,x1*x1,x2*x2.
+5. Matrix y (label vector) consists of column of x1+x2.
+6. The trainig data is generated using c++ programme.
+7. The optimal theta(paratmeter) vector is calculated using inbuilt octave method fminunc().
+8. The cost and gradient without regularization is calculated using function costFunction() which is written in file costFunction.m . 
+9. Test data is generated using c++ programme.
+On running this this model the output should be sum of two numbers.
+Using this model we can generate the output of operation between two numbers without actually knowing the operation in training set.
